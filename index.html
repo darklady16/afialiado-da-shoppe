@@ -37,3 +37,53 @@
     </footer>
 </body>
 </html>
+#### 2.4 Salvar o Arquivo
+- Role a página para baixo e clique no botão “Commit new file” para salvar.
+
+### Passo 3: Criar o Arquivo CSS (`styles.css`)
+
+#### 3.1 Adicionar um Arquivo CSS
+- Novamente, clique em “Add file” e selecione “Create new file”.
+
+#### 3.2 Nomear o Arquivo
+- Nomeie o arquivo como `styles.css`.
+
+#### 3.3 Inserir o Código CSS
+- Adicione o seguinte código CSS para estilizar sua página:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%; /* Largura de cada produto */
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do box */
+}
+
+.produto img {
+    width: 100%; /* Imagem ocupa toda a largura do box */
+    height: auto; /* Mantém a proporção */
+    max-height: 200px; /* Limita a altura máxima da imagem */
+    object-fit: cover; /* Recorta a imagem se necessário */
+}
